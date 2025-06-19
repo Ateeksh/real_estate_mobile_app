@@ -1,0 +1,53 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/Runner.xcworkspace/
+
+# Web
+web/
+
+# Windows
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
