@@ -75,7 +75,16 @@ class _ChatPageState extends State<ChatPage> {
   }
 
   Future<void> _loadData() async {
-    _baseRateData = await DataProvider.loadBaseRateData();
+    _baseRateData = {
+  _responses['property_type']: await DataProvider.loadBaseRateData(
+    type: _responses['property_type'],
+    village: _responses['village'],
+    locality: _responses['locality'],
+    taluka: _responses['taluka'],
+    district: _responses['district'],
+    state: _responses['state'],
+  )
+};
     setState(() {
       _dataLoaded = true;
       _askNextQuestion();
